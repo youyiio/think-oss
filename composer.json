@@ -1,0 +1,30 @@
+{
+    "name": "youyiio/think-oss",
+    "description": "Object Storage Service(oss) plugin for thinkphp 5.1.x, now suport aliyun/qiniu vendor.",
+    "keywords": [
+        "Object Storage Service",
+        "oss",
+        "aliyun",
+        "qiniu",
+        "thinkphp",
+        "thinkphp5"
+    ],
+    "type": "library",
+    "license": "Apache-2.0",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "youyi",
+            "email": "developer@jifenbang.net"
+        }
+    ],
+    "homepage": "http://www.belongx.com",
+    "require": {
+        "php": ">=7.0.0",
+        "aliyuncs/oss-sdk-php": "^2.3",
+        "qiniu/php-sdk": "^7.2"
+    },
+    "autoload": {
+        "psr-4": {"think\\": "src/"}
+    }
+}
